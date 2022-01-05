@@ -2,12 +2,12 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-section{
+.flexible-container{
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
     
 .top-banner{
@@ -35,3 +35,39 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+h3{
+    color: orange;
+}
+.experience{
+    background-image:url(developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.experience-item{
+    box-shadow: 10px 5px 30px gray;
+    border-radius: 5px;
+    width: 40%;
+    padding-left: 20px;
+    margin-left:5%;
+    margin-right: 5%;
+    
+}
+#web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+footer{
+    text-align: center;
+    background-color:slategray;
+    color: white;
+}
+
